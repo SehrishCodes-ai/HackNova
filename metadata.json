@@ -1,0 +1,6 @@
+{
+  "name": "ScholarBridge",
+  "description": "Smart Scholarship & Student Support Navigator helping students discover verified scholarships, fee assistance, internships, and institutional support opportunities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
