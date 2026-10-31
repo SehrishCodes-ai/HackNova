@@ -23,35 +23,12 @@ export const ScholarBridgeLogo: React.FC<{
       onClick={onClick}
       className="inline-flex items-center gap-3 text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2864D8] rounded-lg py-1 whitespace-nowrap shrink-0 group"
     >
-      <span className="w-9 h-9 rounded-lg bg-[#142B4F] flex items-center justify-center border border-[#2864D8]/35 shadow-2xs shrink-0 transition-transform duration-200 group-hover:scale-105">
-        <svg
-          width="19"
-          height="19"
-          viewBox="0 0 24 24"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          aria-hidden="true"
-        >
-          <path
-            d="M3 17C5.5 11.5 9.2 9 12 9C14.8 9 18.5 11.5 21 17"
-            stroke="#EAF3FF"
-            strokeWidth="2.2"
-            strokeLinecap="round"
-          />
-          <path
-            d="M2 17H22"
-            stroke="#2864D8"
-            strokeWidth="2.2"
-            strokeLinecap="round"
-          />
-          <path
-            d="M7.5 17V11.5M12 17V9M16.5 17V11.5"
-            stroke="#EAF3FF"
-            strokeWidth="1.6"
-            strokeLinecap="round"
-          />
-          <circle cx="12" cy="5" r="2" fill="#2864D8" />
-        </svg>
+      <span className="w-9 h-9 rounded-lg overflow-hidden flex items-center justify-center border border-[#2864D8]/35 shadow-2xs shrink-0 transition-transform duration-200 group-hover:scale-105 bg-white">
+        <img
+          src="/logo.jpg"
+          alt="ScholarBridge Logo"
+          className="w-full h-full object-cover"
+        />
       </span>
       <span
         className={`font-display text-lg sm:text-xl font-bold tracking-tight whitespace-nowrap shrink-0 transition-colors ${
